@@ -1502,21 +1502,7 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.2.0", "@babel/runtime@^7.3.1", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.3", "@babel/runtime@^7.4.5":
-  version "7.5.1"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.5.1.tgz#51b56e216e87103ab3f7d6040b464c538e242888"
-  integrity sha512-g+hmPKs16iewFSmW57NkH9xpPkuYD1RV3UE2BCkXx9j+nhhRb9hsiSxPmEa67j35IecTQdn4iyMtHMbt5VoREg==
-  dependencies:
-    regenerator-runtime "^0.13.2"
-
-"@babel/runtime@^7.4.4":
-  version "7.5.2"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.5.2.tgz#98f584f4d03be5d8142c77107ffaedee4d5956f1"
-  integrity sha512-9M29wrrP7//JBGX70+IrDuD1w4iOYhUGpJNMQJVNAXue+cFeFlMTqBECouIziXPUphlgrfjcfiEpGX4t0WGK4g==
-  dependencies:
-    regenerator-runtime "^0.13.2"
-
-"@babel/runtime@^7.5.0":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.2.0", "@babel/runtime@^7.3.1", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.3", "@babel/runtime@^7.4.4", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.0":
   version "7.5.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.5.5.tgz#74fba56d35efbeca444091c7850ccd494fd2f132"
   integrity sha512-28QvEGyQyNkB0/m2B4FU7IEZGK2NUrcMtT6BZEFALTguLk+AUT6ofsHtPk5QyjAdUkpMJ+/Em+quwz4HOt30AQ==
@@ -10617,6 +10603,11 @@ driver-server@^0.6.5:
   integrity sha512-hNAYcdkYhqSpHzkFJjm5ZmtnnGaMB9iU8kycP+54DSfD1la008OyiNj92FJ2UJJ5ByAIArMJneVeWsbacFIU9w==
   dependencies:
     style-unit "^0.6.5"
+
+driver-server@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/driver-server/-/driver-server-1.0.0.tgz#2fa67991d2aafa66dd808b1a1989b18125bb38c0"
+  integrity sha512-H5nhMzsSJYaug+PDPyXiVW2KvK5k7B7K+yVW3FuHESq494Soh1cfomquJ2pk5RiApQr1z0e+0tif11TVRlM+PQ==
 
 driver-weex@^0.6.5:
   version "0.6.5"
@@ -23779,6 +23770,23 @@ rax-button@^0.6.5:
     rax-touchable "^0.6.5"
     universal-env "^0.6.5"
 
+rax-children@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/rax-children/-/rax-children-1.0.0.tgz#6e4b4174c7236f187f49a97fdff5de85f9af1f7e"
+  integrity sha512-sBKEXAMj9ik6SsPfPGgcQnqggmbWFyBdvAV/Cz/0f04bRA86BtWgbMri/9Dce0k8nkEC/BGWiiTdyA8Q49zIiw==
+
+rax-clone-element@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/rax-clone-element/-/rax-clone-element-1.0.0.tgz#d235f5bab8178983d730aa8d6c6a4fa09140a61d"
+  integrity sha512-TaQMVuzoglvCTjbWATlvvwARmeWnG8kpENWNXrNDv0++x29GHNND/TBbx7sdtVs/QmYwYc8YmwRUhaBwKQi5eQ==
+  dependencies:
+    rax-is-valid-element "^1.0.0"
+
+rax-create-factory@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/rax-create-factory/-/rax-create-factory-1.0.0.tgz#95e8dada34327614355450d8abba80f68d0493b7"
+  integrity sha512-blBaVrurj/BOWelJhQWiuc0Kk8Ons1jsNsX78omaPBLkSOL7OkyJ3NC/0iKXHu425yWrGB6e5vho/qabROC7VQ==
+
 rax-hot-loader@^0.6.5:
   version "0.6.5"
   resolved "https://registry.yarnpkg.com/rax-hot-loader/-/rax-hot-loader-0.6.5.tgz#dcbcada2a6cb7ed5b5848c815a40c72376d45ab9"
@@ -23812,6 +23820,11 @@ rax-image@^0.6.8:
   dependencies:
     rax-view "^0.6.5"
     universal-env "^0.6.5"
+
+rax-is-valid-element@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/rax-is-valid-element/-/rax-is-valid-element-1.0.0.tgz#c8583a0ae69b7a6b59b0638d3f997c06e500175e"
+  integrity sha512-MM3IUAQRKn3EJ0D2vjxgobOJLplLAw3YxE7/IRM6ytDYzlPq5iIZ8wsXoPAp/qW3Y+n23HLQUIljmLKywcCEIA==
 
 rax-link@^0.6.5:
   version "0.6.5"
@@ -24017,6 +24030,18 @@ rax@^0.6.5:
     driver-weex "^0.6.5"
     style-unit "^0.6.5"
     universal-env "^0.6.5"
+
+rax@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/rax/-/rax-1.0.8.tgz#6fddf7b1b430c9753afebb2f5fdcdb2c94d20e00"
+  integrity sha512-HzbCnJYwlvQAfeMMv5YsjeD6yH3W/WyZJRU5XwpN8xOnFZyB4mxYkCoHcm4VrXdlpNDrwQUWi169Zb9egzlbkQ==
+  dependencies:
+    "@babel/runtime" "^7.2.0"
+    driver-server "^1.0.0"
+    rax-children "^1.0.0"
+    rax-clone-element "^1.0.0"
+    rax-create-factory "^1.0.0"
+    rax-is-valid-element "^1.0.0"
 
 rc@^1.0.1, rc@^1.1.0, rc@^1.1.6, rc@^1.2.7, rc@^1.2.8:
   version "1.2.8"

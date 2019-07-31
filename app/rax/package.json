@@ -35,7 +35,7 @@
     "regenerator-runtime": "^0.12.1"
   },
   "devDependencies": {
-    "rax": "^0.6.5"
+    "rax": "^1.0.8"
   },
   "peerDependencies": {
     "babel-loader": "^7.0.0 || ^8.0.0",
